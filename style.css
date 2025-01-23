@@ -1,0 +1,113 @@
+nav{
+    margin-left: 70%;
+}
+h1{
+    text-align: center;
+
+}
+.container{
+    display: contents;
+    text-align: center;
+}
+.brand{
+    flex-direction: row-reverse;
+    
+}
+.full {
+    position: relative;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+
+.full img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.full h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: hsl(0, 0%, 100%);
+    font-size: 5rem;
+    text-align: center;
+
+}
+nav {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav a {
+    text-decoration: none;
+    color:white;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+   .stand img{
+    width: 50%; 
+    max-width: 500px; 
+    height: auto;
+  }
+
+.box{
+  display: flex;
+  flex-direction: row;
+}
+.card1{
+  max-width: 50%;
+  margin-left: 200px;
+}
+.card2{
+  max-width: 50%;
+  border: 1px solid white;
+}
+.card2 p{
+  align-items: center;
+  justify-content: center;
+  font-family: Barlow;
+  padding: 5px;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+h4{
+  margin-left: 100px;
+  font-size: xxx-large;
+}
+.card2 a{
+  margin-left: 100px;
+  padding-top: 20px;
+  color: black;
+  text-decoration-color:yellow ;
+}
+.stand{
+  display: flex;
+  flex-direction: row;
+}
+.stand1{
+  
+  margin-right: 200px;
+}
+.stand1 img{
+  max-width: 100%;
+}
+.stand2{
+  max-width: 50%;
+  border: 1px solid white;
+}
